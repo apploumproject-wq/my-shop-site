@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="Aperçu MY SHOP — Gestion des articles">
+  <rect width="1280" height="800" fill="#F1F5F9" />
+  <rect x="28" y="24" width="1224" height="752" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+  <path d="M28 36a12 12 0 0 1 12-12h1200a12 12 0 0 1 12 12v48H28V36z" fill="#1D4ED8" />
+  <g fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(52, 42)">
+    <path d="M1 2h3.5l2.4 11.5h10.5l2.2-8.5H5.2" />
+    <circle cx="8.5" cy="17.5" r="1.7" fill="#FFFFFF" stroke="none" />
+    <circle cx="16" cy="17.5" r="1.7" fill="#FFFFFF" stroke="none" />
+  </g>
+  <text x="82" y="60" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="700" letter-spacing="0.6">MY SHOP — Gestion Commerciale</text>
+  <text x="372" y="59" fill="#DBEAFE" font-family="'Segoe UI', sans-serif" font-size="13">Module Catalogue &amp; Articles</text>
+
+  <!-- Barre latérale -->
+  <rect x="29" y="84" width="220" height="691" fill="#F8FAFC" />
+  <line x1="249" y1="84" x2="249" y2="775" stroke="#E2E8F0" stroke-width="1" />
+  <text x="64" y="134" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500">Enregistrement ventes</text>
+  <text x="64" y="178" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500">Gestion de caisse</text>
+  <rect x="44" y="198" width="190" height="42" rx="8" fill="#1D4ED8" />
+  <text x="64" y="224" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600">Gestion des articles</text>
+  <text x="64" y="270" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500">Gestion du stock</text>
+  <text x="64" y="314" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500">Historique des ventes</text>
+  <text x="64" y="358" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500">Consultation rapports</text>
+
+  <!-- En-tête contenu -->
+  <text x="282" y="128" fill="#0F172A" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700">Gestion des articles</text>
+  <text x="282" y="150" fill="#64748B" font-family="'Segoe UI', sans-serif" font-size="13">Créez, organisez et mettez à jour vos fiches produits et tarifs de vente</text>
+
+  <rect x="1032" y="102" width="188" height="44" rx="8" fill="#1D4ED8" />
+  <text x="1062" y="129" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">+ Nouvel article</text>
+
+  <!-- Recherche -->
+  <rect x="282" y="174" width="480" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" />
+  <text x="302" y="200" fill="#64748B" font-family="'Segoe UI', sans-serif" font-size="13.5">Filtrer par référence, désignation ou famille...</text>
+
+  <!-- Tableau Catalogue Articles -->
+  <rect x="282" y="234" width="938" height="464" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+  <rect x="283" y="235" width="936" height="44" rx="9" fill="#F8FAFC" />
+  <text x="306" y="262" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700">RÉFÉRENCE</text>
+  <text x="440" y="262" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700">DÉSIGNATION DE L'ARTICLE</text>
+  <text x="760" y="262" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700">CATÉGORIE</text>
+  <text x="956" y="262" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700">PRIX DE VENTE</text>
+  <text x="1114" y="262" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700">ACTION</text>
+
+  <!-- Lignes articles -->
+  <g font-family="'Segoe UI', sans-serif" font-size="14">
+    <line x1="282" y1="279" x2="1220" y2="279" stroke="#E2E8F0" />
+    <text x="306" y="315" fill="#1D4ED8" font-weight="600">ART-0087</text>
+    <text x="440" y="315" fill="#0F172A" font-weight="600">Huile d'Olive Vierge Extra 1 L</text>
+    <text x="760" y="315" fill="#475569">Alimentation</text>
+    <text x="956" y="315" fill="#0F172A" font-weight="700">9,20 €</text>
+    <text x="1114" y="315" fill="#1D4ED8" font-weight="600">Modifier</text>
+
+    <line x1="282" y1="340" x2="1220" y2="340" stroke="#F1F5F9" />
+    <text x="306" y="376" fill="#1D4ED8" font-weight="600">ART-0104</text>
+    <text x="440" y="376" fill="#0F172A" font-weight="600">Pack Eau Minérale Naturelle 6 × 1,5 L</text>
+    <text x="760" y="376" fill="#475569">Boissons</text>
+    <text x="956" y="376" fill="#0F172A" font-weight="700">3,50 €</text>
+    <text x="1114" y="376" fill="#1D4ED8" font-weight="600">Modifier</text>
+
+    <line x1="282" y1="401" x2="1220" y2="401" stroke="#F1F5F9" />
+    <text x="306" y="437" fill="#1D4ED8" font-weight="600">ART-0219</text>
+    <text x="440" y="437" fill="#0F172A" font-weight="600">Café Moulu Pur Arabica 500 g</text>
+    <text x="760" y="437" fill="#475569">Épicerie</text>
+    <text x="956" y="437" fill="#0F172A" font-weight="700">6,80 €</text>
+    <text x="1114" y="437" fill="#1D4ED8" font-weight="600">Modifier</text>
+
+    <line x1="282" y1="462" x2="1220" y2="462" stroke="#F1F5F9" />
+    <text x="306" y="498" fill="#1D4ED8" font-weight="600">ART-0341</text>
+    <text x="440" y="498" fill="#0F172A" font-weight="600">Biscuits Artisanaux Beurre Boîte 400 g</text>
+    <text x="760" y="498" fill="#475569">Biscuiterie</text>
+    <text x="956" y="498" fill="#0F172A" font-weight="700">4,50 €</text>
+    <text x="1114" y="498" fill="#1D4ED8" font-weight="600">Modifier</text>
+
+    <line x1="282" y1="523" x2="1220" y2="523" stroke="#F1F5F9" />
+    <text x="306" y="559" fill="#1D4ED8" font-weight="600">ART-0412</text>
+    <text x="440" y="559" fill="#0F172A" font-weight="600">Savon Liquide Mains Flacon 500 ml</text>
+    <text x="760" y="559" fill="#475569">Entretien &amp; Hygiène</text>
+    <text x="956" y="559" fill="#0F172A" font-weight="700">2,90 €</text>
+    <text x="1114" y="559" fill="#1D4ED8" font-weight="600">Modifier</text>
+
+    <line x1="282" y1="584" x2="1220" y2="584" stroke="#F1F5F9" />
+    <text x="306" y="620" fill="#1D4ED8" font-weight="600">ART-0508</text>
+    <text x="440" y="620" fill="#0F172A" font-weight="600">Riz Long Grain Parfumé Sac 5 kg</text>
+    <text x="760" y="620" fill="#475569">Alimentation</text>
+    <text x="956" y="620" fill="#0F172A" font-weight="700">11,40 €</text>
+    <text x="1114" y="620" fill="#1D4ED8" font-weight="600">Modifier</text>
+  </g>
+
+  <text x="282" y="738" fill="#64748B" font-family="'Segoe UI', sans-serif" font-size="12">Aperçu illustratif MY SHOP (remplaçable dans /assets/captures/ via config.js)</text>
+</svg>

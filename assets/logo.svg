@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" width="220" height="52" role="img" aria-label="MY SHOP">
+  <defs>
+    <linearGradient id="myshopBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+  </defs>
+  <!-- Fond bleu officiel -->
+  <rect x="0" y="0" width="220" height="52" rx="10" fill="url(#myshopBlue)" />
+  <!-- Panier blanc -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(15, 11)">
+    <path d="M2 3h4.2l2.9 14.2a2.2 2.2 0 0 0 2.15 1.8h11.3a2.2 2.2 0 0 0 2.12-1.65L27 7.5H6.8" />
+    <circle cx="11.2" cy="24.5" r="2.1" fill="#FFFFFF" stroke="none" />
+    <circle cx="22.3" cy="24.5" r="2.1" fill="#FFFFFF" stroke="none" />
+  </g>
+  <!-- Nom MY SHOP blanc -->
+  <text x="54" y="33.5" fill="#FFFFFF" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22.5" font-weight="800" letter-spacing="0.8">MY SHOP</text>
+</svg>
