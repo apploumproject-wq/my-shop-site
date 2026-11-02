@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO & Métadonnées principales -->
+    <title>MY SHOP — Logiciel de Gestion Commerciale</title>
+    <meta
+      name="description"
+      content="Site vitrine officiel de MY SHOP : solution simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur Windows."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1D4ED8" />
+
+    <!-- OpenGraph / Réseaux sociaux -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="MY SHOP" />
+    <meta property="og:title" content="MY SHOP — Logiciel de Gestion Commerciale" />
+    <meta
+      property="og:description"
+      content="Site vitrine officiel de MY SHOP : solution simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur Windows."
+    />
+    <meta property="og:image" content="./assets/illustrations/hero-ordinateur.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MY SHOP — Logiciel de Gestion Commerciale" />
+    <meta
+      name="twitter:description"
+      content="Site vitrine officiel de MY SHOP : solution simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur Windows."
+    />
+    <meta name="twitter:image" content="./assets/illustrations/hero-ordinateur.jpg" />
+
+    <!-- Favicon MY SHOP -->
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+
+    <!-- Polices Google Fonts (Plus Jakarta Sans + DM Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feuille de style principale (chemin relatif compatible GitHub Pages) -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Données structurées Schema.org (SEO) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "MY SHOP",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Windows",
+        "inLanguage": "fr-FR",
+        "description": "Une solution simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur."
+      }
+    </script>
+  </head>
+
+  <body>
+    <a href="#contenu-principal" class="skip-link">Aller au contenu principal</a>
+
+    <!-- =====================================================================
+         EN-TÊTE & MENU DE NAVIGATION (Contrat 3 zones)
+         ===================================================================== -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Zone 1 : Logo officiel MY SHOP -->
+        <a href="#accueil" class="brand-link" aria-label="MY SHOP — Retour à l'accueil">
+          <img
+            src="./assets/logo.svg"
+            alt="MY SHOP"
+            class="brand-logo"
+            width="161"
+            height="38"
+            referrerpolicy="no-referrer"
+            data-brand-logo
+          />
+        </a>
+
+        <!-- Zone 2 : Menu de navigation principal -->
+        <nav class="primary-nav" aria-label="Navigation principale">
+          <a href="#accueil" class="nav-link is-active">Accueil</a>
+          <a href="#fonctionnalites" class="nav-link">Fonctionnalités</a>
+          <a href="#apercu" class="nav-link">Aperçu</a>
+          <a href="#pourquoi-myshop" class="nav-link">Pourquoi MY SHOP ?</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Zone 3 : Action principale & Bouton menu mobile -->
+        <div class="header-actions">
+          <a
+            href="#demande"
+            class="btn btn--primary btn--sm header-cta-desktop"
+            data-mailto-link
+          >
+            Demander par e-mail
+          </a>
+
+          <button
+            type="button"
+            id="menu-toggle"
+            class="menu-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+            aria-label="Ouvrir ou fermer le menu de navigation"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Menu déroulant responsive (Tablette & Smartphone) -->
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Navigation mobile">
+        <ul class="mobile-nav-list">
+          <li><a href="#accueil" class="mobile-nav-link">Accueil</a></li>
+          <li><a href="#fonctionnalites" class="mobile-nav-link">Fonctionnalités</a></li>
+          <li><a href="#apercu" class="mobile-nav-link">Aperçu</a></li>
+          <li><a href="#pourquoi-myshop" class="mobile-nav-link">Pourquoi MY SHOP ?</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <a href="#demande" class="btn btn--primary" style="width: 100%" data-mailto-link>
+          Demander MY SHOP par e-mail
+        </a>
+      </nav>
+    </header>
+
+    <main id="contenu-principal">
+      <!-- ===================================================================
+           1. SECTION ACCUEIL
+           =================================================================== -->
+      <section id="accueil" class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <!-- Métadonnées sobres sans badge capsule -->
+              <div class="hero-meta tabular-nums">
+                <span>Logiciel de gestion commerciale</span>
+                <span class="hero-meta-sep" aria-hidden="true">·</span>
+                <span data-software-os>Windows</span>
+                <span class="hero-meta-sep" aria-hidden="true">·</span>
+                <span data-software-version>Version à renseigner</span>
+              </div>
+
+              <h1 class="hero-title">
+                Gérez votre commerce simplement avec <span class="hero-title-brand">MY SHOP</span>
+              </h1>
+
+              <p class="hero-subtitle">
+                Une solution simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur.
+              </p>
+
+              <div class="hero-cta-group">
+                <a href="#fonctionnalites" class="btn btn--secondary">
+                  Découvrir les fonctionnalités
+                </a>
+                <a href="#demande" class="btn btn--primary" data-mailto-link>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path>
+                  </svg>
+                  <span>Demander MY SHOP par e-mail</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Illustration professionnelle montrant le logiciel sur un ordinateur -->
+            <div class="hero-visual-frame">
+              <div class="media-slot">
+                <img
+                  id="hero-illustration"
+                  src="./assets/illustrations/hero-ordinateur.jpg"
+                  alt="Ordinateur de comptoir exécutant le logiciel de gestion commerciale MY SHOP"
+                  width="960"
+                  height="540"
+                  referrerpolicy="no-referrer"
+                />
+                <div class="media-fallback">
+                  <strong>MY SHOP sur ordinateur Windows</strong>
+                  <span style="font-size: 13px; margin-top: 6px">
+                    Gestion des ventes, de la caisse et du stock au comptoir
+                  </span>
+                </div>
+              </div>
+              <div class="hero-visual-caption">
+                <span>Poste de gestion sur ordinateur Windows</span>
+                <span>Caisse · Ventes · Stock · Rapports</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bandeau de synthèse factuel pleine largeur -->
+          <div class="hero-pillars">
+            <div class="pillar-item">
+              <h2 class="pillar-title">Encaissement au comptoir</h2>
+              <p class="pillar-desc">
+                Enregistrement fluide de chaque vente et suivi quotidien de votre caisse.
+              </p>
+            </div>
+            <div class="pillar-item">
+              <h2 class="pillar-title">Articles &amp; Catalogue</h2>
+              <p class="pillar-desc">
+                Référencement structuré de vos articles et tarifs de vente sur votre poste.
+              </p>
+            </div>
+            <div class="pillar-item">
+              <h2 class="pillar-title">Maîtrise du stock</h2>
+              <p class="pillar-desc">
+                Visibilité directe sur les quantités disponibles en magasin à chaque instant.
+              </p>
+            </div>
+            <div class="pillar-item">
+              <h2 class="pillar-title">Suivi de l'activité</h2>
+              <p class="pillar-desc">
+                Consultation claire de l'historique des ventes et des rapports d'activité.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           2. SECTION FONCTIONNALITÉS (Strictement les 6 fonctionnalités réelles)
+           =================================================================== -->
+      <section id="fonctionnalites" class="section section--subtle">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Fonctionnalités disponibles</p>
+            <h2 class="section-title">
+              L'essentiel pour piloter vos opérations commerciales au quotidien
+            </h2>
+            <p class="section-lead">
+              MY SHOP rassemble dans une interface unique les six fonctions indispensables à la tenue quotidienne de votre commerce, sans complexité inutile.
+            </p>
+          </div>
+
+          <div class="features-bento">
+            <!-- 01. Gestion de caisse -->
+            <article class="feature-card feature-card--wide">
+              <div>
+                <div class="feature-top">
+                  <div class="feature-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                      <line x1="2" y1="10" x2="22" y2="10"></line>
+                      <line x1="6" y1="15" x2="10" y2="15"></line>
+                    </svg>
+                  </div>
+                  <span class="feature-index tabular-nums">01</span>
+                </div>
+                <h3 class="feature-title" style="margin-top: 16px">Gestion de caisse</h3>
+                <p class="feature-text">
+                  Suivez vos encaissements de la journée avec clarté. Vérifiez le total encaissé et gardez une maîtrise rigoureuse des mouvements de votre caisse directement sur votre ordinateur.
+                </p>
+              </div>
+              <p class="feature-detail">
+                Pointage quotidien · Lecture immédiate des totaux encaissés
+              </p>
+            </article>
+
+            <!-- 02. Gestion des articles -->
+            <article class="feature-card feature-card--compact">
+              <div>
+                <div class="feature-top">
+                  <div class="feature-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                      <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                    </svg>
+                  </div>
+                  <span class="feature-index tabular-nums">02</span>
+                </div>
+                <h3 class="feature-title" style="margin-top: 16px">Gestion des articles</h3>
+                <p class="feature-text">
+                  Créez, modifiez et classez vos fiches produits avec leurs désignations, références et prix de vente pour retrouver rapidement chaque article.
+                </p>
+              </div>
+              <p class="feature-detail">
+                Catalogue organisé · Mise à jour simple des prix
+              </p>
+            </article>
+
+            <!-- 03. Gestion du stock -->
+            <article class="feature-card feature-card--compact">
+              <div>
+                <div class="feature-top">
+                  <div class="feature-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                      <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                      <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                  </div>
+                  <span class="feature-index tabular-nums">03</span>
+                </div>
+                <h3 class="feature-title" style="margin-top: 16px">Gestion du stock</h3>
+                <p class="feature-text">
+                  Consultez les quantités réellement disponibles en magasin, enregistrez vos réceptions de marchandises et anticipez les besoins de réapprovisionnement.
+                </p>
+              </div>
+              <p class="feature-detail">
+                Quantités en rayon · Suivi des entrées et disponibilités
+              </p>
+            </article>
+
+            <!-- 04. Enregistrement des ventes -->
+            <article class="feature-card feature-card--wide">
+              <div>
+                <div class="feature-top">
+                  <div class="feature-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="9" cy="21" r="1"></circle>
+                      <circle cx="20" cy="21" r="1"></circle>
+                      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                  </div>
+                  <span class="feature-index tabular-nums">04</span>
+                </div>
+                <h3 class="feature-title" style="margin-top: 16px">Enregistrement des ventes</h3>
+                <p class="feature-text">
+                  Saisissez vos ventes client en quelques clics au comptoir. Le montant total se calcule automatiquement en fonction des articles et des quantités sélectionnées.
+                </p>
+              </div>
+              <p class="feature-detail">
+                Saisie rapide au comptoir · Calcul automatique du montant
+              </p>
+            </article>
+
+            <!-- 05. Historique des ventes -->
+            <article class="feature-card">
+              <div>
+                <div class="feature-top">
+                  <div class="feature-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <span class="feature-index tabular-nums">05</span>
+                </div>
+                <h3 class="feature-title" style="margin-top: 16px">Historique des ventes</h3>
+                <p class="feature-text">
+                  Retrouvez l'ensemble des ventes déjà enregistrées. Vérifiez facilement le détail d'une opération passée par date ou par référence de transaction.
+                </p>
+              </div>
+              <p class="feature-detail">
+                Traçabilité complète · Recherche chronologique des opérations
+              </p>
+            </article>
+
+            <!-- 06. Consultation des rapports -->
+            <article class="feature-card">
+              <div>
+                <div class="feature-top">
+                  <div class="feature-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="18" y1="20" x2="18" y2="10"></line>
+                      <line x1="12" y1="20" x2="12" y2="4"></line>
+                      <line x1="6" y1="20" x2="6" y2="14"></line>
+                    </svg>
+                  </div>
+                  <span class="feature-index tabular-nums">06</span>
+                </div>
+                <h3 class="feature-title" style="margin-top: 16px">Consultation des rapports</h3>
+                <p class="feature-text">
+                  Visualisez des bilans clairs de vos ventes et de l'activité de votre boutique afin d'évaluer vos résultats sur la période de votre choix.
+                </p>
+              </div>
+              <p class="feature-detail">
+                Synthèse périodique · Lecture claire des performances commerciales
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           3. SECTION APERÇU DU LOGICIEL (Galerie remplaçable + Zoom au clic)
+           =================================================================== -->
+      <section id="apercu" class="section">
+        <div class="container">
+          <div class="preview-toolbar">
+            <div class="section-header">
+              <p class="section-kicker">Aperçu du logiciel</p>
+              <h2 class="section-title">Découvrez l'interface de MY SHOP</h2>
+              <p class="section-lead">
+                Cliquez sur n'importe quelle capture d'écran pour l'agrandir et examiner la disposition claire des différents écrans de gestion.
+              </p>
+            </div>
+
+            <!-- Contrôle de filtrage interactif -->
+            <div class="filter-tabs" role="tablist" aria-label="Filtrer les captures d'écran par module">
+              <button
+                type="button"
+                role="tab"
+                aria-selected="true"
+                class="filter-tab is-active"
+                data-filter="all"
+              >
+                Tout afficher
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected="false"
+                class="filter-tab"
+                data-filter="caisse-ventes"
+              >
+                Caisse &amp; Ventes
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected="false"
+                class="filter-tab"
+                data-filter="articles-stock"
+              >
+                Articles &amp; Stock
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected="false"
+                class="filter-tab"
+                data-filter="rapports"
+              >
+                Historique &amp; Rapports
+              </button>
+            </div>
+          </div>
+
+          <!-- Grille alimentée depuis config.js (images facilement remplaçables) -->
+          <div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           4. SECTION POURQUOI CHOISIR MY SHOP ?
+           =================================================================== -->
+      <section id="pourquoi-myshop" class="section section--subtle">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Pourquoi MY SHOP ?</p>
+            <h2 class="section-title">
+              Un logiciel conçu pour la réalité des commerces de proximité
+            </h2>
+            <p class="section-lead">
+              Pas d'usine à gaz ni d'options superflues : MY SHOP privilégie la simplicité d'utilisation, la stabilité sur poste Windows et l'efficacité au comptoir.
+            </p>
+          </div>
+
+          <div class="why-layout">
+            <!-- Colonne gauche : Visuel boutique + Fiche récapitulative -->
+            <div class="why-visual-column">
+              <div class="why-photo-wrapper">
+                <div class="media-slot media-slot--4x3">
+                  <img
+                    id="shop-illustration"
+                    src="./assets/illustrations/commerce-comptoir.jpg"
+                    alt="Comptoir d'un commerce équipé d'un ordinateur portable sous Windows"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                  />
+                  <div class="media-fallback">
+                    <strong>Adapté aux commerces et boutiques</strong>
+                    <span style="font-size: 13px; margin-top: 6px">
+                      Poste de gestion compact sur ordinateur Windows
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-specs-box tabular-nums">
+                <h3 class="tech-specs-title">Informations sur le logiciel</h3>
+                <div class="tech-specs-list">
+                  <div class="tech-spec-row">
+                    <span class="tech-spec-label">Nom du logiciel</span>
+                    <span class="tech-spec-value">MY SHOP</span>
+                  </div>
+                  <div class="tech-spec-row">
+                    <span class="tech-spec-label">Environnement</span>
+                    <span class="tech-spec-value" data-software-os>Windows</span>
+                  </div>
+                  <div class="tech-spec-row">
+                    <span class="tech-spec-label">Version actuelle</span>
+                    <span class="tech-spec-value" data-software-version>À renseigner</span>
+                  </div>
+                  <div class="tech-spec-row">
+                    <span class="tech-spec-label">Obtention &amp; installation</span>
+                    <span class="tech-spec-value">Sur demande par e-mail</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Colonne droite : Les 5 atouts clés -->
+            <ul class="why-reasons-list">
+              <li class="why-reason-item">
+                <div class="why-reason-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="why-reason-title">Interface simple et intuitive</h3>
+                  <p class="why-reason-desc">
+                    Une organisation claire des écrans qui permet une prise en main rapide par le commerçant ou son équipe, sans formation technique longue.
+                  </p>
+                </div>
+              </li>
+
+              <li class="why-reason-item">
+                <div class="why-reason-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="why-reason-title">Installation sur ordinateur Windows</h3>
+                  <p class="why-reason-desc">
+                    S'installe directement sur votre ordinateur de bureau ou votre PC portable équipé de Windows pour un confort de saisie optimal au comptoir.
+                  </p>
+                </div>
+              </li>
+
+              <li class="why-reason-item" data-confirmation="offlineMode">
+                <div class="why-reason-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="why-reason-title">Utilisation hors connexion</h3>
+                  <p class="why-reason-desc">
+                    Continuez à enregistrer vos ventes et gérer votre stock sans dépendre d'une connexion Internet permanente (selon les modalités confirmées lors de l'installation).
+                  </p>
+                </div>
+              </li>
+
+              <li class="why-reason-item" data-confirmation="localDataStorage">
+                <div class="why-reason-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="why-reason-title">Conservation locale des données</h3>
+                  <p class="why-reason-desc">
+                    Vos articles, vos niveaux de stock et votre historique de ventes restent stockés directement sur votre poste de travail (selon la configuration confirmée).
+                  </p>
+                </div>
+              </li>
+
+              <li class="why-reason-item">
+                <div class="why-reason-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="why-reason-title">Adapté aux petits commerces</h3>
+                  <p class="why-reason-desc">
+                    Parfaitement adapté aux boutiques, supérettes, commerces d'alimentation, quincailleries, magasins d'équipement et points de vente indépendants.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           5. SECTION DEMANDE DU LOGICIEL (E-mail uniquement — Sans téléchargement direct)
+           =================================================================== -->
+      <section id="demande" class="section">
+        <div class="container">
+          <div class="request-banner">
+            <div>
+              <h2 class="request-title">Vous souhaitez utiliser MY SHOP ?</h2>
+              <p class="request-text">
+                Écrivez-nous par e-mail pour obtenir les informations sur le logiciel, ses conditions d'utilisation et les modalités d'installation.
+              </p>
+            </div>
+
+            <div class="request-action-col">
+              <a href="mailto:apploumproject@gmail.com?subject=Demande%20du%20logiciel%20MY%20SHOP&body=Bonjour%2C%20je%20souhaite%20obtenir%20des%20informations%20sur%20le%20logiciel%20MY%20SHOP%20et%20conna%C3%AEtre%20les%20modalit%C3%A9s%20pour%20l%27obtenir." class="btn btn--white" data-mailto-link>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path>
+                </svg>
+                <span>Demander MY SHOP par e-mail</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           6. SECTION CONTACT (Exclusivement par e-mail — Aucun formulaire ni téléphone)
+           =================================================================== -->
+      <section id="contact" class="section section--subtle">
+        <div class="container">
+          <div class="contact-panel">
+            <div class="contact-header">
+              <p class="section-kicker">Contact</p>
+              <h2 class="section-title" style="margin-bottom: 6px">
+                Nous écrire par e-mail
+              </h2>
+              <p class="section-lead">
+                Pour toute question générale ou demande d'information par courrier électronique, contactez-nous directement à l'adresse ci-dessous.
+              </p>
+            </div>
+
+            <div class="contact-email-row">
+              <div class="contact-email-info">
+                <span class="contact-email-label">Adresse e-mail officielle</span>
+                <span class="contact-email-address" data-contact-email>
+                  apploumproject@gmail.com
+                </span>
+              </div>
+
+              <div class="contact-buttons">
+                <button type="button" id="copy-email-btn" class="btn btn--secondary btn--sm">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span id="copy-email-label">Copier l'adresse</span>
+                </button>
+
+                <a
+                  href="mailto:apploumproject@gmail.com"
+                  class="btn btn--primary"
+                  data-mailto-general
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span>Nous contacter</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================================================
+         7. PIED DE PAGE (Footer)
+         ===================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a href="#accueil" class="brand-link" aria-label="MY SHOP — Haut de page">
+              <img
+                src="./assets/logo.svg"
+                alt="MY SHOP"
+                class="brand-logo"
+                width="161"
+                height="38"
+                referrerpolicy="no-referrer"
+                data-brand-logo
+              />
+            </a>
+            <p class="footer-brand-desc">
+              Logiciel de gestion commerciale simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur.
+            </p>
+          </div>
+
+          <div>
+            <h2 class="footer-heading">Navigation</h2>
+            <ul class="footer-links">
+              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+              <li><a href="#apercu">Aperçu</a></li>
+              <li><a href="#pourquoi-myshop">Pourquoi MY SHOP ?</a></li>
+              <li><a href="#demande">Demander le logiciel</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 class="footer-heading">Contact par e-mail</h2>
+            <a
+              href="mailto:apploumproject@gmail.com"
+              class="footer-email-link"
+              data-mailto-general
+              data-contact-email
+            >
+              apploumproject@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© MY SHOP — Tous droits réservés.</p>
+          <p class="tabular-nums" data-software-version>Version à renseigner</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =====================================================================
+         MODALE LIGHTBOX (Agrandissement des captures d'écran au clic)
+         ===================================================================== -->
+    <div
+      id="lightbox"
+      class="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+      aria-labelledby="lightbox-title"
+    >
+      <div class="lightbox-dialog">
+        <div class="lightbox-header">
+          <div class="lightbox-title-group">
+            <span id="lightbox-counter" class="lightbox-counter tabular-nums">1 / 4</span>
+            <h2 id="lightbox-title" class="lightbox-title">Aperçu MY SHOP</h2>
+          </div>
+
+          <button
+            type="button"
+            id="lightbox-close"
+            class="lightbox-close"
+            aria-label="Fermer l'aperçu agrandi"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <div class="lightbox-stage">
+          <img
+            id="lightbox-img"
+            src="./assets/captures/capture-01-caisse-ventes.svg"
+            alt="Aperçu agrandi du logiciel MY SHOP"
+            referrerpolicy="no-referrer"
+          />
+        </div>
+
+        <div class="lightbox-footer">
+          <p id="lightbox-caption" class="lightbox-caption"></p>
+          <div class="lightbox-nav">
+            <button
+              type="button"
+              id="lightbox-prev"
+              class="btn btn--secondary btn--sm"
+              aria-label="Capture précédente"
+            >
+              Précédent
+            </button>
+            <button
+              type="button"
+              id="lightbox-next"
+              class="btn btn--primary btn--sm"
+              aria-label="Capture suivante"
+            >
+              Suivant
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts statiques (chemins relatifs compatibles GitHub Pages) -->
+    <script src="./config.js"></script>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

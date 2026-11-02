@@ -1,0 +1,6 @@
+{
+  "name": "MY SHOP — Logiciel de Gestion Commerciale",
+  "description": "Site vitrine officiel de MY SHOP : solution simple et pratique pour gérer vos ventes, votre caisse et votre stock depuis votre ordinateur Windows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
